@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    padding: 30px;  
+}
+.btun{
+    height: 20vh;
+    display: block;
+    margin-bottom: -30px;
+    text-align: center;
+    position: relative;
+}
+.btn1{
+   background-color: rgba(196, 67, 84, 0.9);
+    border-radius: 7px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left:5px;
+}
+.link{
+    position: relative;
+    left: 43%;
+    font-style: italic;
+    background-color: rgba(228, 133, 145, 0.9);
+    /*background-image: radial-gradient(rgba(243, 61, 61, 0.8),rgba(166, 166, 221, 0.2)),
+     url(images/btn-back.jeg);
+    background-size: cover;*/
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: inline-block;
+    padding:5px 50px;
+    background-position: top;
+}
+.parta{
+    height: 320vh;
+    background-image: radial-gradient(rgba(154, 154, 158, 0.8),rgb(150, 144, 144,0.8)) 
+    ,url(images/hero.jpeg);
+    background-size: cover;
+    background-position: top;
+    border: 10px dotted rgb(83, 80, 80, 1.1);
+    border-bottom: none;
+    border-top: none;
+   // clip-path: polygon(0 0, 100% 0, 100% 310vh, 0 100%);
+    //clip-path: polygon(0 0, 100% 0, 100% 300vh, 0 100%);
+    position: relative;
+}
+h2{
+    text-transform:uppercase;
+    color: rgba(223, 93, 93);
+    font-style: italic;
+    font-weight: 700;.com
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    text-decoration: underline;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-image: radial-gradient(rgba(235, 230, 230, 0.8),rgba(166, 166, 221, 0.8));
+}
+.react{
+    position: absolute;
+    top: 15px;
+}
+.ule{
+    position: absolute;
+    font-size: 15px;
+    top: 90px;
+    left: 85px;
+    color: white;
+}
+li{
+    list-style-image: url(images/Apps-kmymoney-icon.png);
+    line-height: 1.9em;
+}
+.javas{
+    position: absolute;
+    top: 330px;
+}
+.ule1{
+    position: absolute;
+    font-size: 15px;
+    top: 405px;
+    left: 85px;
+    color: white;
+}
+.css{
+    position: absolute;
+    top: 845px;
+}
+.ule2{
+    position: absolute;
+    font-size: 15px;
+    top: 920px;
+    left: 85px;
+    color: white;
+}
+.res{
+    position: absolute;
+    top: 1275px;
+}
+.ule3{
+    position: absolute;
+    font-size: 15px;
+    top: 1350px;
+    left: 85px;
+    color: white;
+}
+.lan{
+    position: absolute;
+    top: 1505px;
+}
+.ule4{
+    position: absolute;
+    font-size: 15px;
+    top: 1580px;
+    left: 85px;
+    color: white;
+}
+.games{
+    position: absolute;
+    top: 1690px;
+}
+.ule5{
+    position: absolute;
+    font-size: 15px;
+    top: 1765px;
+    left: 85px;
+    color: white;
+}

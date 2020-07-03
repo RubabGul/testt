@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1 class="link">LINKS</h1>
+    <div class="btun">
+      <button onclick="copyToClipboard('reactjs')" class="btn1 rea">Reactjs</button>
+      <button onclick="copyToClipboard('js')" class="btn1 jaa">JAVASCRIPT</button>
+      <button onclick="copyToClipboard('css')" class="btn1 cs">CSS</button>
+      <button onclick="copyToClipboard('landing')" class="btn1">LANDING</button>
+      <button onclick="copyToClipboard('responsive')" class="btn1">RESPONSIVE</button>
+      <button onclick="copyToClipboard('games')" class="btn1">GAME</button>
+    </div>
+    <div class="parta">
+    
+    <h2 class="react">Reactjs</h2>
+    <p id="" >
+      <ul id="reactjs" class="ule">
+        <li> https://social-feed1.web.app/login </li>
+        <li> https://todo-app-7b98f.web.app/</li>
+        <li>https://dream-dbaca.firebaseapp.com/home</li>
+        <li> https://waves-guitars-2806.herokuapp.com/</li>
+        <li>https://epic-dl.firebaseapp.com/ 6.https://ismail-university.web.app/</li>
+        <li>https://aliensgohome-678ae.firebaseapp.com/</li>
+        <li>https://student-project-redux.netlify.com/</li>
+        <li>https://hotux.netlify.app/</li>
+      </ul>
+   
+    <h2 class="javas">JAVASCRIPT</h2>
+    <p id="">
+      <ul id="js" class="ule1">
+        <li>https://forkify-recipe.netlify.app/</li>
+        <li>https://ismailmuhammed.github.io/todo-local-storage/index.html</li>
+        <li>https://budgety-budget-management.netlify.app/</li>
+        <li>https://calculator-e8ff9.firebaseapp.com/</li>
+        <li>https://user-crud-operations.netlify.com/</li>
+        <li>https://emoji-face.netlify.app/</li>
+        <li>https://ismailmuhammed.github.io/flex-pannels/index.html</li>
+        <li>https://ismailmuhammed.github.io/voice-recognization/</li>
+        <li>https://rgb-color-game.netlify.app/</li>
+        <li>https://relaxed-bhabha-903628.netlify.app/</li>
+        <li>https://wack-a-mole.netlify.app/</li>
+        <li>https://draw-play.netlify.app/</li>
+        <li>https://pat-a-tap.netlify.app/ </li>
+        <li>https://simon-game1.netlify.app/</li>
+        <li>https://ismailmuhammed.github.io/FindCity/</li>
+      </ul>
+     
+      <h2 class="css">CSS</h2>
+      <p id="">
+        <ul id="css" class="ule2">
+     <li>https://natrous.netlify.com/</li>
+     <li>https://ismailmuhammed.github.io/Tindog/</li>
+     <li>https://dream-dbaca.firebaseapp.com/home</li>
+     <li>https://style-changer.netlify.app/</li>
+     <li>https://universe-site.netlify.app/</li>
+     <li>https://epic-dl.firebaseapp.com/</li>
+     <li>https://ismailmuhammed.github.io/Cv/</li>
+     <li>https://ismail-university.web.app/</li>
+     <li>https://ismailmuhammed.github.io/flex-pannels/index.html</li>
+     <li>http://laptop-store-1.herokuapp.com/</li>
+     <li>https://ismailmuhammed.github.io/Cooking/src/</li>
+     <li>https://hotux.netlify.app/</li>
+      </ul>
+
+    <p id="">
+      <h2 class="res">RESPONSIVE</h2>
+        <ul id="responsive" class="ule3">
+     <li>https://natrous.netlify.com/</li>
+     <li>https://ismailmuhammed.github.io/Tindog/</li>
+     <li>https://universe-site.netlify.app/</li>
+     <li>https://dream-dbaca.firebaseapp.com/home</li>
+     <li>https://ismailmuhammed.github.io/Cooking/src/</li>
+        </ul>
+  
+    <p id="">
+      <h2 id="LANDING" class="lan">landing</h2>
+        <ul id="landing" class="ule4">
+     <li>https://natrous.netlify.com/</li>
+     <li>https://ismailmuhammed.github.io/Tindog/</li>
+     <li>https://universe-site.netlify.app/</li>
+        </ul>
+ 
+    <p id="">
+      <h2 id="" class="games">games</h2>
+        <ul id="games" class="ule5">
+     <li>https://aliensgohome-678ae.firebaseapp.com/ </li>
+     <li>https://rgb-color-game.netlify.app/ </li>
+     <li>https://wack-a-mole.netlify.app/ </li>
+     <li>https://simon-game1.netlify.app/</li>
+    </div> 
+  
+  
+
+  </body>
+  <script>
+    function copyToClipboard(id) {
+      var from = document.getElementById(id);
+      var head = document.getElementById("LANDING");
+      var range = document.createRange();
+      window.getSelection().removeAllRanges();
+      range.selectNode(from);
+      window.getSelection().addRange(range);
+      var str = document.getElementById(id).innerHTML;
+      var mybr = document.createElement("br");
+      LANDING.appendChild(mybr);
+      document.execCommand("copy");
+      window.getSelection().removeAllRanges();
+    }
+  </script>
+</html>

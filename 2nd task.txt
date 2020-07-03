@@ -1,0 +1,7 @@
+aoa
+challange no 2
+ak file send ke ha iski achi se css krni ha jo css pa ha woi kra ga 
+or nicha buttons han usko opr jasa links ki trteeb ha wasa he nicha kr dana ha jo clases ya id phla sa de hue ha usa nicharna new da dani ha class or uska sath kam krna ha
+kunka isma javascript hue ha wo khrab ho jae ge
+decent sa design krna ha.
+iski working ya ha ka ma jo button dbata hu wo sara links mara pass clipboard pa copy ho jata han
